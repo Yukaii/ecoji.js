@@ -1,0 +1,25 @@
+{
+  "name": "ecoji",
+  "version": "1.0.0",
+  "description": "Encode data as emojis (a JavaScript fork)",
+  "main": "out/index.js",
+  "bin": "bin/ecoji",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
+  },
+  "keywords": [
+    "emoji",
+    "fun"
+  ],
+  "author": "Yukai Huang <yukaihuangtw@gmail.com> (https://yukaii.tw)",
+  "license": "MIT",
+  "devDependencies": {
+    "tslint": "^5.9.1",
+    "typescript": "^2.7.2"
+  },
+  "dependencies": {
+    "meow": "^4.0.0"
+  }
+}
